@@ -1,0 +1,8 @@
+{{ define "main" }}
+    <aside>
+      {{ .TableOfContents }}
+    </aside>
+  {{- with .Content -}}
+      {{ . | replaceRE "(<h[2-4] id=\"([^\"]+)\".+)(</h[2-4]+>)" `${1}<a href="#${2}" class="hanchor" ariaLabel="Anchor">#</a>${3}`| safeHTML }}
+  {{- end -}}
+{{ end }}

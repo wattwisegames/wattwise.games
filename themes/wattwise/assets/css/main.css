@@ -1,0 +1,19 @@
+body {
+    font-family: sans-serif;
+    line-height: 1.5;
+    margin: 1rem auto;
+    max-width: 768px;
+    font-size: 18px;
+    color: #444;
+    padding: 0 10px;
+}
+
+a {
+    color: #006600;
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    line-height: 1.2;
+}
+
