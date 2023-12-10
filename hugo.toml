@@ -2,3 +2,8 @@ baseURL = 'https://wattwise.games/'
 languageCode = 'en-us'
 title = 'Watt-Wise Game Jam'
 theme = 'wattwise'
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
