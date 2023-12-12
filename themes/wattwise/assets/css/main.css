@@ -13,7 +13,25 @@ a {
     text-decoration: none;
 }
 
+h1 {
+    text-align: center;
+}
+
 h1, h2, h3 {
     line-height: 1.2;
 }
 
+img.logo {
+    max-width: 20%;
+    display: block;
+    margin: auto;
+}
+
+footer {
+    font-size: 14px;
+    text-align: center;
+}
+
+.link_list {
+    text-align: center;
+}
