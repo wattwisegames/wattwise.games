@@ -38,7 +38,7 @@ __Note:__ exact details of the judging process are still being worked out and ar
 Games must:
 
 - Support running on Linux (we will be measuring game power efficiency from a specialized Linux environment where we can eliminate background processing).
-- Either include any runtime dependencies, or rely solely on open source onces. Examples:
+- Either include any runtime dependencies, or rely solely on open source ones. Examples:
     - Web browsers for web-based games ([Chromium](https://www.chromium.org/Home/), [Firefox](https://www.mozilla.org/en-US/firefox/new/), etc...)
     - Console emulators for real consoles ([PCSX2](https://pcsx2.net/), [Dolphin](https://dolphin-emu.org/), [mGBA](https://mgba.io/), etc...)
     - Fantasy consoles ([WASM4](https://wasm4.org/), [PICO-8](https://www.lexaloffle.com/pico-8.php), etc...)
