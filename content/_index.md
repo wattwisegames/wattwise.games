@@ -26,7 +26,7 @@ The end goal isn't just to build some great games, but to discover which techniq
 
 ## How?
 
-We are developing both hardware and software estimation techniques for measuring energy consumption. Participants can use our open source power estimation tooling while developing their games to optimize for using less power.
+We are developing both hardware and software estimation techniques for measuring energy consumption. Participants can use our [open source power estimation tooling](https://github.com/wattwisegames/watt-wiser) while developing their games to optimize for using less power.
 When it's time to judge games, the community will rank their favorite games, and then the judges will play those games and measure their hardware consumption using a more precise hardware monitor. The game that strikes the best balance between fun gameplay and low energy consumption wins!
 
 __Note:__ exact details of the judging process are still being worked out and are subject to change.
