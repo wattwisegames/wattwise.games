@@ -1,5 +1,5 @@
 +++
-title = 'Foo'
+title = 'Watt-Wise Game Jam'
 date = 2023-12-09T12:25:45-05:00
 draft = false
 +++
