@@ -18,7 +18,11 @@ Watt-Wise is a challenge to build low-energy games. Entries will be judged both 
 
 ## Why?
 
-Computers and video games have an enormous carbon footprint [citation needed]. We can minimize the carbon footprint of running games on non-renewable power grids by using less power, but this is actually the lesser goal.
+Computers and video games have an enormous carbon footprint
+<sup><a href="https://www.sciencedaily.com/releases/2021/09/210910121715.htm">1</a></sup>
+<sup><a href="https://gtg.benabraham.net/can-we-put-a-number-on-the-game-industrys-annual-climate-footprint-part-1-game-development/">2</a></sup>
+<sup><a href="https://news.mit.edu/2022/how-can-we-reduce-carbon-footprint-global-computing-0428">3</a></sup>.
+We can minimize the carbon footprint of running games on non-renewable power grids by using less power, but this is actually the lesser goal.
 
 By focusing our jam on low energy use, we also target the ability for older hardware to run it. How? Well, the physics definition of "energy" is the "capacity to do work". If program X uses more energy on my computer than program Y, it's because it actually does more computation. There are differences in the efficiencies of certain tasks enabled by hardware, of course. GPUs make lots of 2D and 3D math vastly more efficient that pure-CPU approaches. However, we can compare two programs on the same hardware (while holding factors like clock speeds constant) to compare how much energy is required for them to function. The program using less energy does less work on that hardware, and is likelier to run better on even older hardware.
 
