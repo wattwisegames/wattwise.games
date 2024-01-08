@@ -10,7 +10,8 @@ Build delightful games that use as little energy per second as possible in order
 
 ## When
 
-2024; precise dates TBD.
+- **Submission**: March 22nd 2024 - April 22nd 2024
+- **Evaluation**: April 23rd 2024 - April 28th 2024
 
 ## What?
 
