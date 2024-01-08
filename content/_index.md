@@ -46,7 +46,7 @@ Games must:
 - Either include any runtime dependencies, or rely solely on open source ones. Examples:
     - Web browsers for web-based games ([Chromium](https://www.chromium.org/Home/), [Firefox](https://www.mozilla.org/en-US/firefox/new/), etc...)
     - Console emulators for real consoles ([PCSX2](https://pcsx2.net/), [Dolphin](https://dolphin-emu.org/), [mGBA](https://mgba.io/), etc...)
-    - Fantasy consoles ([WASM4](https://wasm4.org/), [PICO-8](https://www.lexaloffle.com/pico-8.php), etc...)
+    - Fantasy consoles ([WASM4](https://wasm4.org/), [TIC-80](https://tic80.com/), etc...)
     - Virtual machines ([UXN](https://100r.co/site/uxn.html), etc...)
 
 ### How do I make a game energy-efficient?
