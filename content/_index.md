@@ -57,21 +57,21 @@ The simple answer is "make your game do less work," but there are many ways to g
 - Draws a new frame of output per screen refresh
 
 If we call your tick rate
-<math>tps</math>
+<code>tps</code>
 and your frame rate
-<math>fps</math>,
+<code>fps</code>,
 and we call the cost of one tick and one frame
-<math><msub><mi>C</mi><mn>t</mn></msub></math>
+<code>C<sub>t</sub></code>
 and
-<math><msub><mi>C</mi><mn>f</mn></msub></math>,
+<code>C<sub>f</sub></code>
 respectively, we can model your energy cost per second as:
 
-<math>tps&times;<msub><mi>C</mi><mn>t</mn></msub>&plus;fps&times;<msub><mi>C</mi><mn>f</mn></msub></math>.
+<code>tps * C<sub>t</sub> + fps * C<sub>f</sub></code>.
 
 The most obvious wins come from decreasing
-<math>tps</math>
+<code>tps</code>
 and/or
-<math>fps</math>,
+<code>fps</code>,
 since they are static multipliers on the cost of running your game every second.
 
 ### TPS and FPS Optimizations
