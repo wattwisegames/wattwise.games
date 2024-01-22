@@ -74,7 +74,7 @@ and/or
 <code>fps</code>,
 since they are static multipliers on the cost of running your game every second.
 
-### TPS and FPS Optimizations
+#### TPS and FPS Optimizations
 
 In your game, you may be able to update the state of your game world far less often than you need to draw frames. There's a delicate balance here, espcially for physics-based games, but doing fewer game ticks saves energy.
 
@@ -87,7 +87,7 @@ For FPS, a number of optimizations are available:
 - **Render fewer FPS in menus and full-screen overlays.** The inventory page probably doesn't need the same FPS as the main game, so slow down the render loop when displaying it.
 - **Target a lower frame rate.** It is not a crime to develop a game for 30FPS, even if the available display supports higher. You can do far, far less work per second across your game's runtime by doing so.
 
-### Cost of Tick Optimizations
+#### Cost of Tick Optimizations
 
 However, there's a limit to how much you can decrease these while keeping your game feeling pleasant and interactive. Instead, let's focus on optimizing
 <math><msub><mi>C</mi><mn>t</mn></msub></math>
@@ -98,7 +98,7 @@ and
 
 Also, stop updating your world state when the player can't see it anyway, like when they're looking at a menu.
 
-### Cost of Frame Optimizations
+#### Cost of Frame Optimizations
 
 <math><msub><mi>C</mi><mn>f</mn></msub></math> is the cost of drawing one frame. Here, we can consider many ways of doing less work that are relevant for many games:
 

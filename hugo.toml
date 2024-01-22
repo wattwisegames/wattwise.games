@@ -6,4 +6,9 @@ theme = 'wattwise'
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+  [markup.tableOfContents]
+    ordered = false
+    startLevel = 2
+    endLevel = 3
+
 
