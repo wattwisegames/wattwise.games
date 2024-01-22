@@ -38,6 +38,14 @@ __Note:__ exact details of the judging process are still being worked out and ar
 
 ## FAQ
 
+### How do I join?
+
+Join one of our online communities to get the latest news, discuss game ideas, find collaborators, and more. We'll be running the jam via itch.io, but we're not ready to open the itch jam just yet. Join us on [Discord](https://discord.gg/CCf27aJbYw) or [IRC](ircs://irc.libera.chat/#wattwise.games) to get involved.
+
+### Can teams participate, or only solo game developers?
+
+Teams are welcome!
+
 ### What restrictions are there for submissions?
 
 Games must:
