@@ -111,9 +111,9 @@ Also, stop updating your world state when the player can't see it anyway, like w
 <math><msub><mi>C</mi><mn>f</mn></msub></math> is the cost of drawing one frame. Here, we can consider many ways of doing less work that are relevant for many games:
 
 - **Draw to a smaller output resolution.** Your game has to do work to render every pixel. Decreasing the output resolution and embracing the resulting pixelation decreases the work you do per frame quadratically. Consider the difference between rendering frames at 4K and 1080p. 4K displays have a resolution of
-<math>3,840&times;2,160&equals;8,294,400px</math>,
+3,840&times;2,160&equals;8,294,400px,
 whereas 1080p displays have a resolution of
-<math>1,920&times;1,080&equals;2,073,600px</math>
+1,920&times;1,080&equals;2,073,600px
 (&frac14; the pixels). Thus, scaling down your render framebuffer by half results in doing one quarter the work. Even if you later upscale the rendered frame to the size of the monitor, rendering to the smaller framebuffer first saves a lot of work. This is the factor on which the smallest change has the biggest impact.
 - **Draw with lower color depth.** The representation you use for color impacts how expensive it is to build frames. Smaller color representations allow more pixels worth of color to be fetched from VRAM at once (and more to reside in the same cache lines), leading to more overall efficient rendering. Switching your game to monochrome color (from 32-bit RGBA to 8-bit monochrome) leads to a 4x reduction in data per pixel. You can even explore going down to 1-bit color and the wild and wonderful world of [ditherpunk](https://surma.dev/things/ditherpunk/). This allows you to render entirely in [bit-blit](https://en.wikipedia.org/wiki/Bit_blit) operations, and is **very** fast.
 - **Draw simpler geometry.** Another major part of your game (2D or 3D) is always going to be drawing individual game objects. Using fewer and simpler objects does less work. It's as simple as that. Think hard about what your game actually needs to display.
