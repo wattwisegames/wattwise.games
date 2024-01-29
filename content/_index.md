@@ -46,6 +46,15 @@ Join one of our online communities to get the latest news, discuss game ideas, f
 
 Teams are welcome!
 
+### Can I submit an existing game, or does it need to be a new one?
+
+We will accept two categories of submission:
+
+- **From Scratch**: games built during the jam. These can incorporate pre-existing code, but the gameplay experience itself should be crafted during the jam.
+- **Optimized**: games that existed before the jam, but were optimized for energy efficiency during the jam.
+
+We'll evaluate the two categories separately and recognize excellence within each category. That way optimized games are only compared against other optimized games, and new games are only compared against other new games.
+
 ### What restrictions are there for submissions?
 
 Games must:
