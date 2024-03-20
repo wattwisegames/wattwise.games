@@ -32,7 +32,7 @@ The end goal isn't just to build some great games, but to discover which techniq
 ## How?
 
 We are developing both hardware and software estimation techniques for measuring energy consumption. Participants can use our [open source power estimation tooling](https://github.com/wattwisegames/watt-wiser) while developing their games to optimize for using less power.
-When it's time to judge games, the community will rank their favorite games, and then the judges will play those games and measure their hardware consumption using a more precise hardware monitor. The game that strikes the best balance between fun gameplay and low energy consumption wins!
+When it's time to judge games, the community will rank their favorite games, and then the judges will play those games and measure their hardware consumption using a more precise hardware monitor. The games that strike the best balance between fun gameplay and low energy consumption win!
 
 __Note:__ exact details of the judging process are still being worked out and are subject to change.
 
@@ -40,7 +40,7 @@ __Note:__ exact details of the judging process are still being worked out and ar
 
 ### How do I join?
 
-Join one of our online communities to get the latest news, discuss game ideas, find collaborators, and more. We'll be running the jam via itch.io, but we're not ready to open the itch jam just yet. Join us on [Discord](https://discord.gg/CCf27aJbYw) or [IRC](ircs://irc.libera.chat/#wattwise.games) to get involved.
+Join one of our online communities to get the latest news, discuss game ideas, find collaborators, and more. Join us on [Itch.io](https://itch.io/jam/watt-wise-game-jam) and [Discord](https://discord.gg/CCf27aJbYw) or [IRC](ircs://irc.libera.chat/#wattwise.games) to get involved.
 
 ### Can teams participate, or only solo game developers?
 
@@ -59,6 +59,7 @@ We'll evaluate the two categories separately and recognize excellence within eac
 
 Games must:
 
+- Be Safe-For-Work (like the ESRB Teen rating or below).
 - Support running on Linux (we will be measuring game power efficiency from a specialized Linux environment where we can eliminate background processing).
 - Either include any runtime dependencies, or rely solely on open source ones. Examples:
     - Web browsers for web-based games ([Chromium](https://www.chromium.org/Home/), [Firefox](https://www.mozilla.org/en-US/firefox/new/), etc...)
