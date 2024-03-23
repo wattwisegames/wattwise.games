@@ -42,6 +42,10 @@ You can find an explanation of the scoring rubric used to evaluate games [here](
 
 Join one of our online communities to get the latest news, discuss game ideas, find collaborators, and more. Join us on [Itch.io](https://itch.io/jam/watt-wise-game-jam) and [Discord](https://discord.gg/CCf27aJbYw) or [IRC](ircs://irc.libera.chat/#wattwise.games) to get involved.
 
+### Is there a theme?
+
+The theme is **not** a factor in determining the score of entries, but we do have one. In 2024, our theme is "Breaking and Re-Making." Whether that's relationships, objects, ecologies, worlds, bones, or anything else is up to you.
+
 ### Can teams participate, or only solo game developers?
 
 Teams are welcome!
