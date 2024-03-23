@@ -94,9 +94,9 @@ since they are static multipliers on the cost of running your game every second.
 
 #### TPS and FPS Optimizations
 
-In your game, you may be able to update the state of your game world far less often than you need to draw frames. There's a delicate balance here, espcially for physics-based games, but doing fewer game ticks saves energy.
+In your game, you may be able to update some sub-states of your game world (physics, AI, networking, etc...) far less often than others. This lets you save work per-tick. There's a delicate balance here, espcially for physics-based games, but doing fewer game ticks saves energy.
 
-- **Try running your tick loop slower than your frame loop.** For some games, 10TPS (or even 1TPS) may be sufficient. It all depends upon what kinds of interaction your player has with the game, and how quickly the game needs to react.
+- **Try running your physics (or other sub-system) tick loop slower than your frame loop.** For some games, 10TPS (or even 1TPS) may be sufficient. It all depends upon what kinds of interaction your player has with the game, and how quickly the game needs to react.
 - **Explore input-driven tick processing.** For games that are driven primarily by user input, see if you can architect your update loop to not run unless the user gave input. Allowing this part of your game engine to sleep when it isn't needed saves a lot of work.
 
 For FPS, a number of optimizations are available:
