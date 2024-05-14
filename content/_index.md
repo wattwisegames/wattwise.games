@@ -8,6 +8,103 @@ draft = false
 
 Build delightful games that use as little energy per second as possible in order to make games and computing more sustainable, and to discover new directions for software aesthetics.
 
+## 2024 Results
+
+<a href="/all-graph.avif"><img src="/all-graph.avif" alt="power graph showing all entries' power consumption during evaluation"/></a>
+
+In 2024, WWGJ had three awesome entries:
+
+- "From Scratch" Games:
+  - [Green RPG](https://gosub.itch.io/green-rpg)
+  - [Tile Garden](https://kylep.itch.io/tile-garden)
+- "Optimized" Games:
+  - [Heat.WAV](https://mcbaya.itch.io/heatwav)
+
+Here's how their scores came out:
+
+### Tile Garden - #1 "From Scratch" Game
+
+<a href="https://kylep.itch.io/tile-garden"><img class="game-banner" src="/tile-garden-banner.webp" alt="Tile Garden banner image"/></a>
+
+**Overall Score**: 31 points (rounded)
+
+<a href="/tile-garden-graph.avif"><img src="/tile-garden-graph.avif" alt="power graph showing Tile Garden's power consumption during evaluation"/></a>
+
+**Breakdown**:
+
+- **Efficiency**: 17.925
+  - average of 2.83 Watts above baseline, score linearly interpolated out of 25 against 10 Watts.
+- **Qualitative**: 13
+  - **Technical**: 3.333
+  - **Writing**: 0.166
+  - **Gameplay**: 3.166
+  - **Visuals**: 3.833
+  - **Audio**: 2.5
+
+Consuming a tiny 2.83 Watts, playing Tile Garden for an hour uses the same amount of energy as running an LED light for 3 hours. This game is a charming pixel-art plant-building game. Completing plant structures earns you income for every leaf attached to the structure, which in turn allow you to buy more tiles to build plants from. Over time you unlock new tiles to build ever-more-complex structures. It can take a while to figure out exactly what you're doing due to the lack of in-game help (and you might, like one judge, never realize you can move tiles you've previously placed), but the experience is fun and the structures you can build intricate.
+
+### Green RPG - #2 "From Scratch" Game
+
+<a href="https://gosub.itch.io/green-rpg"><img class="game-banner" src="/green-rpg-banner.webp" alt="Green RPG banner image"/></a>
+
+**Overall Score**: 30 points (rounded)
+
+<a href="/green-rpg-graph.avif"><img src="/green-rpg-graph.avif" alt="power graph showing Green RPG's power consumption during evaluation"/></a>
+
+**Breakdown**:
+
+- **Efficiency**: 22.925
+  - average of 0.83 Watts above baseline, score linearly interpolated out of 25 against 10 Watts.
+- **Qualitative**: 6.666
+  - **Technical**: 3.666
+  - **Writing**: 0
+  - **Gameplay**: 1
+  - **Visuals**: 2
+  - **Audio**: 0
+
+Green RPG is, in the author's own words, "more of a tech demo than a complete game." However, it manages to implement a JavaScript raycaster world with pixel graphics and wall collision detection while using a measly 0.83 Watts. This is equivalent to the power required for an efficient nightlight. There isn't much to do within the game world beyond walk around the simple level and admire the pixels, but certainly no energy is wasted here.
+
+### Heat.WAV - #1 "Optimized" Game
+
+<a href="https://mcbaya.itch.io/heatwav"><img class="game-banner" src="/heat-wav-banner.webp" alt="Heat.WAV banner image"/></a>
+
+**Overall Score**: 26 points (rounded)
+
+<a href="/heat-wav-graph.avif"><img src="/heat-wav-graph.avif" alt="power graph showing Heat.WAV's power consumption during evaluation"/></a>
+
+**Breakdown**:
+
+- **Efficiency**: 5.479
+  - average of 15.616 Watts above baseline, score linearly interpolated out of 25 against 20 Watts.
+- **Qualitative**: 21
+  - **Technical**: 3.666
+  - **Writing**: 5
+  - **Gameplay**: 3.666
+  - **Visuals**: 4.333
+  - **Audio**: 4.333
+
+Heat.WAV is a wonderful satire about your life as a demon contractor on a mission to make the surface of the Earth back into the Hell it was in prehistoric times. Playing this game for an hour uses the same amount of additional energy as running your ceiling fan for 4 hours (including the energy of the all of the fans you must sabotage in your demonic quest). The game is fully and professionally voice-acted, includes numerous puzzle levels, and has a memorable graphical style. You might encounter the occaisional bug, and the gameplay loop is sometimes a little slow, but it's absolutely worth a playthrough.
+
+### How were games evaluated?
+
+Three judges played each game on three different computers. The computers were all running Ubuntu 23.10 from a bootable USB, all disconnected from the internet, and all had their CPUs locked to 2GHz. The cable connecting the computers to the wall was instrumented with [harmon-e](https://github.com/aThorp96/energy-monitor) to gather high-resolution measurements of the apparent power flowing up the cable. The raw data from harmon-e was collected and analyzed in [watt-wiser](https://github.com/wattwisegames/watt-wiser), and the game's energetic impact was determined by subtracting the average power draw of the idle system from the average power draw while running the game.
+
+The judges also rated games against [our rubric](https://docs.google.com/document/d/1mHvB7PRph3zuOjNGy6VVAf8R_rcOzCOItSG3lyIKfW8/edit?usp=sharing) to provide a qualitative metric for the experience of playing the game. We intended to factor in ratings from the community as well, but Itch.io is glitching such that we're unable to access community ratings.
+
+For the extremely curious, the [raw data (228MB compressed, 714MB unpacked)](https://drive.google.com/file/d/1y7v6eUzxRSuKROPW8tH-OoYRvhdVXhsN/view?usp=sharing) from the judges' energy measurements is available. Unzip it and open the `benchmarks.json` file in [watt-wiser](https://github.com/wattwisegames/watt-wiser)'s "Benchmark" tab via the "Load from File" button. It may take a while to load all of the data (it's quite large).
+
+The hardware of the judges has a significant impact on the energy characteristics of their gameplay. Here are the CPU and GPU of each judge's test computer:
+
+- Chris (moderately old desktop with semi-recent graphics card):
+  - CPU: Intel Core i7-6700K CPU
+  - GPU: AMD Radeon RX 6700 XT
+- Shauna (moderately old laptop):
+  - CPU: Intel Core i7-8550U CPU
+  - GPU: Intel UHD Graphics 620
+- Andrew (moderately old laptop):
+  - CPU: Intel Core i5-7200U CPU
+  - GPU: Intel HD Graphics 620
+
 ## When
 
 - **Submission**: March 22nd 2024 - April 22nd 2024
